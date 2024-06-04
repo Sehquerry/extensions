@@ -1,0 +1,936 @@
+repo_name: Sehquerry/extensions
+report_id: 0a5a09329a962475312a9f173bff8e6b
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-09T14:12:54+00:00'
+requested_by: jauntybrain
+provider: github
+branch: next
+detected_tools_count: 70
+tools:
+- name: Dart
+  description: A new web programming language with libraries, a virtual machine, and
+    tools
+  website_url: https://www.dartlang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1646/Twitter-02.png
+  detection_source_url: https://github.com/Sehquerry/extensions
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  version: 4.7.7
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-send-email/functions/package-lock.json
+  detection_source: firestore-send-email/functions/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-12-30 19:30:30.000000000 Z
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Sehquerry/extensions
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Sehquerry/extensions
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-bigquery-export/firestore-bigquery-change-tracker/src/__tests__/fixtures/sql/generateSnapshotStresstestTable.sql
+  detection_source: firestore-bigquery-export/firestore-bigquery-change-tracker/src/__tests__/fixtures/sql/generateSnapshotStresstestTable.sql
+  last_updated_by: Jacob Cable
+  last_updated_on: 2022-11-15 09:05:07.000000000 Z
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/Sehquerry/extensions
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/Sehquerry/extensions
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-bigquery-export/scripts/gen-schema-view/package.json
+  detection_source: firestore-bigquery-export/scripts/gen-schema-view/package.json
+  last_updated_by: Chris Bianca
+  last_updated_on: 2019-04-23 18:14:01.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/_emulator/functions/package-lock.json
+  detection_source: firestore-bigquery-export/scripts/gen-schema-view/package.json
+  last_updated_by: Darren Ackers
+  last_updated_on: 2022-11-29 10:31:01.000000000 Z
+- name: Flutter
+  description: Cross-platform mobile framework from Google
+  website_url: https://flutter.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Mobile Development
+  image_url: https://img.stackshare.io/service/7180/flutter-mark-square-100.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-counter/clients/dart/pubspec.yaml
+  detection_source: firestore-counter/clients/dart/pubspec.yaml
+  last_updated_by: pr_Mais
+  last_updated_on: 2023-01-09 20:25:49.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/delete-user-data/functions/package.json
+  detection_source: delete-user-data/functions/package.json
+  last_updated_by: Lauren Long
+  last_updated_on: 2018-12-11 00:26:59.000000000 Z
+- name: Firebase
+  description: The Realtime App Platform
+  website_url: https://firebase.google.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/116/cZLxNFZS.jpg
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/_emulator/functions/package.json
+  detection_source: _emulator/functions/package.json
+  last_updated_by: dackers86
+  last_updated_on: 2023-01-25 16:36:12.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.3.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-bigquery-export/firestore-bigquery-change-tracker/package-lock.json
+  detection_source: firestore-bigquery-export/firestore-bigquery-change-tracker/package.json
+  last_updated_by: Chris Bianca
+  last_updated_on: 2019-04-23 18:14:01.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/codecov.yml
+  detection_source: codecov.yml
+  last_updated_by: Lauren Long
+  last_updated_on: 2020-03-04 21:04:31.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/delete-user-data/functions/package.json
+  detection_source: delete-user-data/functions/package.json
+  last_updated_by: Darren Ackers
+  last_updated_on: 2022-10-15 15:07:50.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Sehquerry/extensions
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/.github/workflows/npm_publish_bq_scripts.yml
+  detection_source: ".github/workflows/npm_publish_bq_scripts.yml"
+  last_updated_by: Jacob Cable
+  last_updated_on: 2022-11-21 15:26:02.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-counter/clients/android/build.gradle
+  detection_source: firestore-counter/clients/android/build.gradle
+  last_updated_by: Chris Bianca
+  last_updated_on: 2019-08-27 01:03:49.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 24.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/auth-mailchimp-sync/functions/package-lock.json
+  detection_source: auth-mailchimp-sync/functions/package.json
+  last_updated_by: Chris Bianca
+  last_updated_on: 2019-07-12 01:45:53.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-counter/functions/package.json
+  detection_source: firestore-counter/functions/package.json
+  last_updated_by: Jacob Cable
+  last_updated_on: 2023-02-01 10:50:37.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-bigquery-export/scripts/gen-schema-view/package.json
+  detection_source: firestore-bigquery-export/scripts/gen-schema-view/package.json
+  last_updated_by: Chris Bianca
+  last_updated_on: 2019-04-23 18:14:01.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 1.15.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-counter/clients/web/package-lock.json
+  detection_source: firestore-counter/clients/web/package.json
+  last_updated_by: Patryk Lesiewicz
+  last_updated_on: 2019-06-28 17:55:58.000000000 Z
+- name: TSLint
+  description: An extensible linter for the TypeScript language
+  website_url: https://github.com/palantir/tslint
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5561/303157.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-counter/stress_test/functions/package.json
+  detection_source: firestore-counter/stress_test/functions/package.json
+  last_updated_by: Patryk Lesiewicz
+  last_updated_on: 2019-06-28 17:55:58.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.46.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-counter/clients/web/package-lock.json
+  detection_source: firestore-counter/clients/web/package.json
+  last_updated_by: dackers86
+  last_updated_on: 2021-12-23 11:02:15.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/storage-resize-images/functions/package.json
+  detection_source: storage-resize-images/functions/package.json
+  last_updated_by: Tina Liang
+  last_updated_on: 2019-01-16 01:11:29.000000000 Z
+- name: Mailchimp
+  description: Easy email newsletters
+  website_url: http://mailchimp.com
+  open_source: false
+  hosted_saas: true
+  category: Support, Sales, and Marketing
+  sub_category: Email Marketing
+  image_url: https://img.stackshare.io/service/47/default_3a2efb58b55346c25d951f68f21e56f8af77c9b8.jpg
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/auth-mailchimp-sync/functions/package.json
+  detection_source: auth-mailchimp-sync/functions/package.json
+  last_updated_by: Darren Ackers
+  last_updated_on: 2022-03-01 20:51:48.000000000 Z
+- name: Lerna
+  description: A tool for managing JavaScript projects
+  website_url: https://lerna.js.org/
+  version: 3.22.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jacob Cable
+  last_updated_on: 2023-03-14 13:19:30.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/_emulator/functions/package-lock.json
+  detection_source: firestore-bigquery-export/firestore-bigquery-change-tracker/package.json
+  last_updated_by: Joaquin Cid
+  last_updated_on: 2020-02-10 14:01:07.000000000 Z
+- name: Nodemailer
+  description: A module for Node.js applications to allow email sending
+  website_url: http://www.nodemailer.com/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/2862/qr2-jCLr.jpg
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-send-email/functions/package.json
+  detection_source: firestore-send-email/functions/package.json
+  last_updated_by: Mais
+  last_updated_on: 2023-11-20 13:53:30.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Sehquerry/extensions
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-bigquery-export/scripts/import/package-lock.json
+  detection_source: firestore-bigquery-export/scripts/import/package.json
+  last_updated_by: Jacob Cable
+  last_updated_on: 2023-02-14 10:57:55.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/package.json
+  detection_source: package.json
+  last_updated_by: Yaman KATBY
+  last_updated_on: 2022-11-09 13:45:18.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/package.json
+  detection_source: package.json
+  last_updated_by: Yaman KATBY
+  last_updated_on: 2022-11-09 13:45:18.000000000 Z
+- name: "@types/chai"
+  description: TypeScript definitions for chai
+  package_url: https://www.npmjs.com/@types/chai
+  version: 4.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15922/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-bigquery-export/firestore-bigquery-change-tracker/package-lock.json
+  detection_source: firestore-bigquery-export/firestore-bigquery-change-tracker/package.json
+  last_updated_by: Jacob Cable
+  last_updated_on: 2023-11-28 14:59:02.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/_emulator/functions/package-lock.json
+  detection_source: firestore-bigquery-export/scripts/gen-schema-view/package.json
+  last_updated_by: Darren Ackers
+  last_updated_on: 2022-11-29 10:31:01.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 24.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/auth-mailchimp-sync/functions/package-lock.json
+  detection_source: auth-mailchimp-sync/functions/package.json
+  last_updated_by: Darren Ackers
+  last_updated_on: 2022-03-01 20:51:48.000000000 Z
+- name: "@types/mkdirp"
+  description: TypeScript definitions for mkdirp
+  package_url: https://www.npmjs.com/@types/mkdirp
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16738/default_aa2369d4412b5a2c6812de3c666299e0ccd25ea2.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/storage-resize-images/functions/package-lock.json
+  detection_source: storage-resize-images/functions/package.json
+  last_updated_by: Jeff Huang
+  last_updated_on: 2023-03-16 18:05:56.000000000 Z
+- name: "@types/mocha"
+  description: TypeScript definitions for mocha
+  package_url: https://www.npmjs.com/@types/mocha
+  version: 5.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-counter/functions/package-lock.json
+  detection_source: firestore-counter/functions/package.json
+  last_updated_by: Jacob Cable
+  last_updated_on: 2023-03-13 10:59:03.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.11.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/_emulator/functions/package-lock.json
+  detection_source: delete-user-data/functions/package.json
+  last_updated_by: Darren Ackers
+  last_updated_on: 2023-06-08 14:04:49.000000000 Z
+- name: "@types/node-fetch"
+  description: TypeScript definitions for node-fetch
+  package_url: https://www.npmjs.com/@types/node-fetch
+  version: 2.6.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16459/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/delete-user-data/functions/package-lock.json
+  detection_source: delete-user-data/functions/package.json
+  last_updated_by: Darren Ackers
+  last_updated_on: 2023-06-08 14:04:49.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 3.4.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-counter/clients/web/package-lock.json
+  detection_source: firestore-counter/clients/web/package.json
+  last_updated_by: dackers86
+  last_updated_on: 2021-12-23 11:02:15.000000000 Z
+- name: child_process
+  description: This package name is not currently in use, but was formerly occupied
+    by another package
+  package_url: https://www.npmjs.com/child_process
+  version: 1.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16816/default_2e3ed47575edcaf407097e6171e3d4cb8681a6b3.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/storage-resize-images/functions/package-lock.json
+  detection_source: storage-resize-images/functions/package.json
+  last_updated_by: Darren Ackers
+  last_updated_on: 2023-10-04 09:09:07.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/delete-user-data/functions/package-lock.json
+  detection_source: firestore-bigquery-export/scripts/gen-schema-view/package.json
+  last_updated_by: Jan Wyszynski
+  last_updated_on: 2020-04-07 23:56:59.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 7.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/delete-user-data/functions/package-lock.json
+  detection_source: delete-user-data/functions/package.json
+  last_updated_by: Darren Ackers
+  last_updated_on: 2022-10-15 15:07:50.000000000 Z
+- name: deep-equal
+  description: Node's assert.deepEqual algorithm
+  package_url: https://www.npmjs.com/deep-equal
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16405/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-counter/functions/package-lock.json
+  detection_source: firestore-counter/functions/package.json
+  last_updated_by: Jacob Cable
+  last_updated_on: 2023-03-13 10:59:03.000000000 Z
+- name: faker
+  description: Generate massive amounts of fake contextual data
+  package_url: https://www.npmjs.com/faker
+  version: 5.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16327/default_1baba0e6ece19a38adfb211f686c83c781ff703a.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-bigquery-export/functions/package-lock.json
+  detection_source: firestore-bigquery-export/functions/package.json
+  last_updated_by: Russell Wheatley
+  last_updated_on: 2020-11-05 15:02:42.000000000 Z
+- name: firebase-admin
+  description: Firebase admin SDK for Node.js
+  package_url: https://www.npmjs.com/firebase-admin
+  version: 11.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17151/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/_emulator/functions/package-lock.json
+  detection_source: _emulator/functions/package.json
+  last_updated_by: dackers86
+  last_updated_on: 2023-01-25 16:36:12.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 8.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/_emulator/functions/package-lock.json
+  detection_source: firestore-bigquery-export/scripts/gen-schema-view/package.json
+  last_updated_by: Jan Wyszynski
+  last_updated_on: 2020-04-07 23:56:59.000000000 Z
+- name: handlebars
+  description: Handlebars provides the power necessary to let you build semantic templates
+    effectively with no frustration
+  package_url: https://www.npmjs.com/handlebars
+  version: 4.7.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-send-email/functions/package-lock.json
+  detection_source: firestore-send-email/functions/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-12-30 19:30:30.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 7.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yaman KATBY
+  last_updated_on: 2022-11-09 13:45:18.000000000 Z
+- name: image-size
+  description: Get dimensions of any image file
+  package_url: https://www.npmjs.com/image-size
+  version: 0.9.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16919/default_7fe969828600a90e84607bfa2a19979e53a0579d.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/storage-resize-images/functions/package-lock.json
+  detection_source: storage-resize-images/functions/package.json
+  last_updated_by: Russell Wheatley
+  last_updated_on: 2021-01-13 21:55:52.000000000 Z
+- name: inquirer
+  description: A collection of common interactive command line user interfaces
+  package_url: https://www.npmjs.com/inquirer
+  version: 8.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15911/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/delete-user-data/test-data/package-lock.json
+  detection_source: delete-user-data/test-data/package.json
+  last_updated_by: dackers86
+  last_updated_on: 2021-08-24 13:44:15.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 3.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-bigquery-export/firestore-bigquery-change-tracker/package-lock.json
+  detection_source: firestore-translate-text/functions/package.json
+  last_updated_by: Lauren Long
+  last_updated_on: 2020-03-04 21:04:31.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 12.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Yaman KATBY
+  last_updated_on: 2022-11-09 13:45:18.000000000 Z
+- name: mkdirp
+  description: Recursively mkdir, like `mkdir -p`
+  package_url: https://www.npmjs.com/mkdirp
+  version: 1.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/_emulator/functions/package-lock.json
+  detection_source: storage-resize-images/functions/package.json
+  last_updated_by: Elliot Hesp
+  last_updated_on: 2020-06-23 18:28:16.000000000 Z
+- name: nanoid
+  description: A tiny
+  package_url: https://www.npmjs.com/nanoid
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17208/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-bigquery-export/scripts/import/package-lock.json
+  detection_source: firestore-bigquery-export/scripts/import/package.json
+  last_updated_by: Jacob Cable
+  last_updated_on: 2023-01-04 10:41:01.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/_emulator/functions/package-lock.json
+  detection_source: delete-user-data/functions/package.json
+  last_updated_by: Darren Ackers
+  last_updated_on: 2023-06-08 14:04:49.000000000 Z
+- name: nyc
+  description: The Istanbul command line interface
+  package_url: https://www.npmjs.com/nyc
+  version: 14.1.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-bigquery-export/firestore-bigquery-change-tracker/package-lock.json
+  detection_source: firestore-bigquery-export/firestore-bigquery-change-tracker/package.json
+  last_updated_by: Chris Bianca
+  last_updated_on: 2019-04-23 18:14:01.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/_emulator/functions/package-lock.json
+  detection_source: auth-mailchimp-sync/functions/package.json
+  last_updated_by: Darren Ackers
+  last_updated_on: 2022-03-01 20:51:48.000000000 Z
+- name: sharp
+  description: High performance Node.js image processing
+  package_url: https://www.npmjs.com/sharp
+  version: 0.32.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/storage-resize-images/functions/package-lock.json
+  detection_source: storage-resize-images/functions/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-17 17:22:35.000000000 Z
+- name: traverse
+  description: Traverse and transform objects by visiting every node on a recursive
+    walk
+  package_url: https://www.npmjs.com/traverse
+  version: 0.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16901/default_3772c3833c88109974c994fa9f9548ac8ad59f11.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-bigquery-export/firestore-bigquery-change-tracker/package-lock.json
+  detection_source: firestore-bigquery-export/firestore-bigquery-change-tracker/package.json
+  last_updated_by: Jacob Cable
+  last_updated_on: 2023-12-01 11:03:41.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 24.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/auth-mailchimp-sync/functions/package-lock.json
+  detection_source: auth-mailchimp-sync/functions/package.json
+  last_updated_by: dackers86
+  last_updated_on: 2020-04-09 14:06:44.000000000 Z
+- name: ts-loader
+  description: TypeScript loader for webpack
+  package_url: https://www.npmjs.com/ts-loader
+  version: 6.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15938/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-counter/clients/web/package-lock.json
+  detection_source: firestore-counter/clients/web/package.json
+  last_updated_by: Patryk Lesiewicz
+  last_updated_on: 2019-06-28 17:55:58.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/delete-user-data/test-data/package-lock.json
+  detection_source: delete-user-data/test-data/package.json
+  last_updated_by: dackers86
+  last_updated_on: 2021-08-24 13:44:15.000000000 Z
+- name: wait-on
+  description: Wait-on is a cross platform command line utility and Node.js API which
+    will wait for files
+  package_url: https://www.npmjs.com/wait-on
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17821/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-send-email/functions/package-lock.json
+  detection_source: firestore-send-email/functions/package.json
+  last_updated_by: Mais
+  last_updated_on: 2023-11-24 13:15:26.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 4.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-counter/clients/web/package-lock.json
+  detection_source: firestore-counter/clients/web/package.json
+  last_updated_by: dackers86
+  last_updated_on: 2021-12-23 11:02:15.000000000 Z
+- name: async
+  description: Utility functions and classes related to the 'dart:async' library
+  package_url: https://pub.dartlang.org/async
+  version: 2.9.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-counter/clients/dart/pubspec.lock
+  detection_source: firestore-counter/clients/dart/pubspec.yaml
+  last_updated_by: pr_Mais
+  last_updated_on: 2023-01-03 13:21:15.000000000 Z
+- name: cloud_firestore
+  description: Flutter plugin for Cloud Firestore
+  package_url: https://pub.dartlang.org/cloud_firestore
+  version: 4.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-counter/clients/dart/pubspec.lock
+  detection_source: firestore-counter/clients/dart/pubspec.yaml
+  last_updated_by: pr_Mais
+  last_updated_on: 2023-01-09 20:25:49.000000000 Z
+- name: firebase_core
+  description: Flutter plugin for Firebase Core
+  package_url: https://pub.dartlang.org/firebase_core
+  version: 2.4.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-counter/clients/dart/pubspec.lock
+  detection_source: firestore-counter/clients/dart/pubspec.yaml
+  last_updated_by: pr_Mais
+  last_updated_on: 2023-01-09 20:25:49.000000000 Z
+- name: flutter
+  description: Visit flutter.io to get started
+  package_url: https://pub.dartlang.org/flutter
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/Sehquerry/extensions/blob/next/firestore-counter/clients/dart/pubspec.lock
+  detection_source: firestore-counter/clients/dart/pubspec.yaml
+  last_updated_by: pr_Mais
+  last_updated_on: 2023-01-09 20:25:49.000000000 Z
