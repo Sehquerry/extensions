@@ -1,3 +1,63 @@
+## Version 0.1.58
+
+feat - move to Node.js 20 runtimes
+
+## Version 0.1.57
+
+feat - add basic materialized views support, incremental and non-incremental.
+
+fix - do not add/update clustering if an invalid clustering field is present.
+
+docs - improve cross-project IAM documentation
+
+fix - emit correct events to extension, backwardly compatible.
+
+docs - add documentation on workarounds to mitigate data loss during extension updates
+
+## Version 0.1.56
+
+feat - improve sync strategy by immediately writing to BQ, and using cloud tasks only as a last resort
+
+refactor - improve observability/logging of events
+
+chore - remove legacy backfill code
+
+fix - improved usage of the types from change tracker package
+
+feat - remove log failed exports param
+
+## Version 0.1.55
+
+feat - log failed queued tasks
+
+## Version 0.1.54
+
+fixed - bump changetracker and fix more vulnerabilities
+
+## Version 0.1.53
+
+fixed - bump changetracker to fix npm vulnerabilities
+
+## Version 0.1.52
+
+fixed - bump changetracker to fix npm vulnerabilities
+
+## Version 0.1.51
+
+fixed - medium npm vulnerabilities
+
+fixed - rollback broken multiple database parameter option
+
+## Version 0.1.50
+
+fixed - fixed timestamp as a fieldname partitioning
+
+fixed - bump dependencies, fix vulnerabilities (#2061)
+
+fixed - separate tsconfigs (#2065)
+
+fixed - resolve npm vulnerabilities (#2050)
+
 ## Version 0.1.49
 
 fix - fix the issue "not creating table on install"

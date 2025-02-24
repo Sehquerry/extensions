@@ -13,12 +13,12 @@ import { changeTracker, changeTrackerEvent } from "../fixtures/changeTracker";
 import { getBigQueryTableData } from "../fixtures/queries";
 import { firestore } from "firebase-admin";
 
-process.env.PROJECT_ID = "extensions-testing";
+process.env.PROJECT_ID = "dev-extensions-testing";
 
 const consoleLogSpy = jest.spyOn(logger, "log").mockImplementation();
 const consoleLogSpyWarn = jest.spyOn(logger, "warn").mockImplementation();
 
-const bq: BigQuery = new BigQuery();
+const bq: BigQuery = new BigQuery({ projectId: process.env.PROJECT_ID });
 const event: FirestoreDocumentChangeEvent = changeTrackerEvent({});
 let randomID: string;
 let datasetId: string;
@@ -126,7 +126,7 @@ describe("e2e", () => {
           datasetId,
           tableId,
           timePartitioning: "DAY",
-          timePartitioningField: "created",
+          timePartitioningField: "timestamp",
           timePartitioningFieldType: "TIMESTAMP",
           timePartitioningFirestoreField: "created",
         }).record([event]);
@@ -141,7 +141,7 @@ describe("e2e", () => {
           tableId
         );
 
-        expect(changeLogRows[0].created.value).toBe(
+        expect(changeLogRows[0].timestamp.value).toBe(
           BigQuery.timestamp(created.toDate()).value
         );
       });
@@ -264,6 +264,41 @@ describe("e2e", () => {
 
         expect(changeLogRows[0].created.value.substring(0, 22)).toBe(
           expectedDate
+        );
+      });
+
+      test("successfully partitions with a valid Firebase Timestamp value with `timestamp` as field name and Timestamp type", async () => {
+        const created = firestore.Timestamp.now();
+        const expectedDate = created.toDate().toISOString().substring(0, 22);
+
+        const event: FirestoreDocumentChangeEvent = changeTrackerEvent({
+          data: { created },
+        });
+
+        await changeTracker({
+          datasetId,
+          tableId,
+          timePartitioning: "DAY",
+          timePartitioningField: "timestamp",
+          timePartitioningFieldType: "TIMESTAMP",
+          timePartitioningFirestoreField: "created",
+        }).record([event]);
+
+        const [metadata] = await dataset.table(`${tableId_raw}`).getMetadata();
+
+        const [changeLogRows] = await getBigQueryTableData(
+          process.env.PROJECT_ID,
+          datasetId,
+          tableId
+        );
+
+        expect(metadata.timePartitioning).toBeDefined();
+        expect(metadata.timePartitioning.type).toEqual("DAY");
+        expect(metadata.timePartitioning.field).toEqual("timestamp");
+
+        //TODO: check data has been added successfully
+        expect(changeLogRows[0].timestamp.value).toBe(
+          BigQuery.timestamp(created.toDate()).value
         );
       });
 

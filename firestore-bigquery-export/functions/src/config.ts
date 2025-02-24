@@ -33,11 +33,9 @@ export function clustering(clusters: string | undefined) {
 
 export default {
   bqProjectId: process.env.BIGQUERY_PROJECT_ID,
-  databaseId: process.env.DATABASE_ID || "(default)",
+  databaseId: "(default)",
   collectionPath: process.env.COLLECTION_PATH,
   datasetId: process.env.DATASET_ID,
-  doBackfill: process.env.DO_BACKFILL === "yes",
-  docsPerBackfill: parseInt(process.env.DOCS_PER_BACKFILL) || 200,
   tableId: process.env.TABLE_ID,
   location: process.env.LOCATION,
   initialized: false,
@@ -57,10 +55,22 @@ export default {
   useNewSnapshotQuerySyntax:
     process.env.USE_NEW_SNAPSHOT_QUERY_SYNTAX === "yes" ? true : false,
   excludeOldData: process.env.EXCLUDE_OLD_DATA === "yes" ? true : false,
+  viewType: process.env.VIEW_TYPE || "view",
+  maxStaleness: process.env.MAX_STALENESS,
+  refreshIntervalMinutes: process.env.REFRESH_INTERVAL_MINUTES
+    ? parseInt(process.env.REFRESH_INTERVAL_MINUTES)
+    : undefined,
   instanceId: process.env.EXT_INSTANCE_ID!,
   maxDispatchesPerSecond: parseInt(
     process.env.MAX_DISPATCHES_PER_SECOND || "10"
   ),
   kmsKeyName: process.env.KMS_KEY_NAME,
-  useCollectionGroupQuery: process.env.USE_COLLECTION_GROUP_QUERY === "yes",
+  maxEnqueueAttempts: isNaN(parseInt(process.env.MAX_ENQUEUE_ATTEMPTS))
+    ? 3
+    : parseInt(process.env.MAX_ENQUEUE_ATTEMPTS),
+  // backup bucket defaults to default firebase cloud storage bucket
+  backupToGCS: process.env.BACKUP_TO_GCS === "yes" ? true : false,
+  backupBucketName:
+    process.env.BACKUP_GCS_BUCKET || `${process.env.PROJECT_ID}.appspot.com`,
+  backupDir: `_${process.env.INSTANCE_ID || "firestore-bigquery-export"}`,
 };
