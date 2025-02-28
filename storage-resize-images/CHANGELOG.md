@@ -1,3 +1,29 @@
+## Version 0.2.8
+
+fixed - support '+' character in paths
+
+docs - fix typo in PREINSTALL.md
+
+fixed - handle paths correctly on windows
+
+## Version 0.2.7
+
+fixed - maintain aspect ratio of resized images (#2115)
+
+feat - move to Node.js 20 runtimes
+
+## Version 0.2.6
+
+fixed - bump dependencies, fix vulnerabilities
+
+## Version 0.2.5
+
+fixed - bump dependencies, fix vulnerabilities (#2061)
+
+## Version 0.2.4
+
+fixed - bumped dependencies to latest versions, addressing dependency vulnerabilities
+
 ## Version 0.2.3
 
 docs - add a sample explaining how to use custom events

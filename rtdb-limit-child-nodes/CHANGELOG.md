@@ -1,3 +1,15 @@
+## Version 0.1.15
+
+feat - move to Node.js 20 runtimes
+
+## Version 0.1.14
+
+fixed - bump dependencies to fix vulnerabilities
+
+## Version 0.1.13
+
+fixed - bump dependencies, fix vulnerabilities (#2061)
+
 ## Version 0.1.12
 
 fixed - updated vulnerable dependencies

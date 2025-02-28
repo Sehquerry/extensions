@@ -1,3 +1,15 @@
+## Version 0.1.24
+
+feat - move to Node.js 20 runtimes
+
+## Version 0.1.23
+
+fixed - bump dependencies to fix vulnerabilities
+
+## Version 0.1.22
+
+fixed - recursive delete searched docs if enabled (#2073)
+
 ## Version 0.1.21
 
 fixed - fix autodiscovery recursive deletion

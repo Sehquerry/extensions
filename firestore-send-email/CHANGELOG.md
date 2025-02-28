@@ -1,3 +1,27 @@
+## Version 0.1.37
+
+feat: add support for OAuth2 authentication
+
+fix: default replyTo issue introduced in 0.1.35
+
+fix: sendgrid attachment bug introduced in 0.1.35
+
+## Version 0.1.36
+
+feat - move to Node.js 20 runtimes
+
+## Version 0.1.35
+
+feat - add SendGrid category support
+
+docs - add instructions for setting up Firestore TTL policies for the `delivery.expireAt` field.
+
+## Version 0.1.34
+
+fixed - SendGrid v3 issues (#2020)
+
+fixed - bump dependencies, fix vulnerabilities (#2061)
+
 ## Version 0.1.33
 
 fixed - fix issue with sendgrid fields
